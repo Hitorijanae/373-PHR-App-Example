@@ -1,0 +1,95 @@
+body{
+	margin:0;
+	background-color:#0c93b0;
+}
+
+.header{
+	background-color:#252525;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:45px;
+	padding:0;
+	margin:0;
+}
+
+.back{
+	color:white;
+	font-family:helvetica;
+	height:100%;
+	width:50px;
+	text-align:center;
+	line-height:45px;
+	z-index:999;
+}
+
+#add_new_item{
+	position:absolute;
+	right:0;
+	width:50px;
+	height:100%;
+	color:white;
+	text-align:center;
+	font-family:helvetica;
+	top:0;
+	line-height:45px;
+	font-size:22px;
+}
+
+#health_history_ul{
+	padding:0;
+	margin:0;
+	-webkit-overflow-scrolling:touch;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.history_li{
+	list-style:none;
+	width:90;
+	position:relative;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:5px;
+	border:1px solid whitesmoke;
+	border-radius:5px;
+}
+
+.history_li span{
+}
+
+.h_title{
+	color:white;
+	text-align:center;
+	width:100%;
+	height:20px;
+	display:block;
+	position:relative;
+	z-index:0;
+}
+
+.delete_item{
+	position:absolute;
+	right:0px;
+	top:0;
+	width:25px;
+	text-align:center;
+	color:red;
+	font-family:helvetica;
+	z-index:1000;
+	background-color:#353535;
+	border-top-right-radius:5px;
+}
+
+.h_notes{
+	width:100%;
+	color:#202020;
+	display:block;
+	width:100%;
+	position:relative;
+	word-wrap:break-word;
+}

@@ -1,0 +1,79 @@
+body{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color:#0c93b0;
+}
+
+.header{
+	background-color:#252525;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:45px;
+	padding:0;
+	margin:0;
+}
+
+#exit_add_item{
+	color:white;
+	font-family:helvetica;
+	height:100%;
+	width:50px;
+	text-align:center;
+	line-height:45px;
+	z-index:999;
+}
+
+#add_history_item_form{
+	width:100%;
+	height:auto;
+	top:10px;
+	position:relative;
+}
+
+#add_history_item_form input[type="text"]{
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+	width:90%;
+	margin:auto;
+	height:35px;
+	border-radius:0;
+	outline:none;
+	position:relative;
+}
+
+#add_history_item_form textarea{
+	top:10px;
+	resize:none;
+	outline:none;
+	display:block;
+	width:90%;
+	margin:auto;
+	height:105px;
+	border-radius:0;
+	outline:none;
+	position:relative;
+}
+
+#add_history_item_form input[type="submit"]{
+	position:relative;
+	width:90%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	top:25px;
+	background-color:#404040;
+	color:white;
+	font-family:helvetica;
+	height:40px;
+	font-size:20px;
+	border:0;
+	outline:0;
+}

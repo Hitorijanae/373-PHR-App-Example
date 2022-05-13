@@ -1,0 +1,109 @@
+body,html{
+	height:100%;
+	width:100%;
+	position:absolute;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	background-color:#0c93b0;
+}
+
+#profile_screen{
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+
+#information_holder{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:200px;
+	background-color:#666666;
+}
+
+#my_name{
+	color:white;
+	text-align:center;
+	font-family:helvetica;
+	font-weight:normal;
+}
+
+#date_of_birth{
+	color:white;
+	font-family:helvetica;
+	text-align:center;
+	font-size:16px;
+	font-weight:normal;
+}
+
+#current_age,#current_weight{
+	color:white;
+	text-align:center;
+	font-family:helvetica;
+	font-size:14px;
+	font-weight:normal;
+}
+
+#main_navigation_holder{
+	position:absolute;
+	top:200px;
+	width:100%;
+	min-height:200px;
+}
+
+.main_button{
+	width:50%;
+	height:100%;
+	-webkit-appearance:none;
+	 background-color:transparent;
+	 outline:none;
+	 border:none;
+	 background-position:center center;
+	 background-size:85px;
+	 background-repeat:no-repeat;
+}
+
+#settings_page_button{
+	position:absolute;
+	left:0;
+	background-image:url('../images/currentmedications@2x.png');
+}
+
+#health_history_button{
+	position:absolute;
+	right:0;
+	background-image:url('../images/profile@2x.png');
+}
+
+#add_item_screen{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+	background-color:#0c93b0;
+}
+
+#list_of_history_screen{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+	background-color:#0c93b0;
+}
+
+#settings_screen{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:none;
+	background-color:#0c93b0;
+}
+
